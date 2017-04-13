@@ -65,6 +65,6 @@ Now that you have the components built, implement interactivity.
 
 - Continue working on your React checklist.
 
-#### Sad Bonus - RIP Charlie Murphy
+## Sad Bonus - RIP Charlie Murphy
 
  ![charliemurphy](https://media1.giphy.com/media/H8tuTEG2ikRXy/giphy.gif) 
