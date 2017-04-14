@@ -1,10 +1,19 @@
 .App {
   text-align: center;
+  padding: 2%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.butt {
+  position: absolute;
+  top: 105px;
+  right: 520px;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .App-header {
@@ -21,4 +30,9 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.done {
+  text-decoration: line-through;
+  color: rebeccapurple;
 }

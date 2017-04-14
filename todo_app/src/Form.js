@@ -11,6 +11,9 @@ class Form extends Component {
     }
   }
 
+clear(){
+  this.setState({input: ""})
+}
 
 changeText(e){
       this.setState({input: e.target.value})
@@ -26,6 +29,7 @@ sort(arr){
 }
 
 send(e){
+  // console.log(e.target.children[0].children[0].value)
   e.preventDefault();
   console.log(this.state.input)
       axios({
@@ -35,7 +39,8 @@ send(e){
       })
       .then(res => {console.log(res.data.all[0]); this.sort(res.data.all) })
       .catch(err => console.log(err))
-//
+
+      this.clear()
 
 }
 
